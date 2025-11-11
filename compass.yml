@@ -1,0 +1,16 @@
+name: git
+id: ari:cloud:compass:710800ae-63a2-4399-8ad0-12fe7c5f2374:component/423e3dc4-d6c4-40cd-bc1a-541cc11cd3f1/6273535c-4200-41e7-a8d0-3d5aa14ba67a
+description: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/OS-APLET-lukas-jane/git
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
